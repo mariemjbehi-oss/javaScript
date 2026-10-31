@@ -1,16 +1,11 @@
-import Vert from "./components/Vert/Vert.jsx";
-import Bleu from "./components/Bleu/Bleu.jsx";
-import Rouge from "./components/Rouge/Rouge.jsx";
-
+import './App.css';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 function App() {
   return (
-    <>
-    <Vert />
-    <Rouge />
-    <Bleu />
-
-    </>
-  )
-}
-
-export default App
+    <div className="app"> 
+      <Header/>
+      <Footer/>
+    </div>
+  );
+}export default App;
